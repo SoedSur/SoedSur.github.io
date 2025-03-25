@@ -29,4 +29,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 
-![Plot of the covariance between paramters]({{site.url}}/assets/cov_plot.png)
+| ![Plot of the covariance between paramters]({{site.url}}/assets/cov_plot.png) | 
+|:--:| 
+| This is a plot of the 13 parameters and their respective correlation |
+
