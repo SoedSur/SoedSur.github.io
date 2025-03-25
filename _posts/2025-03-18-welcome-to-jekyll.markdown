@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Assignment 2"
 date:   2025-03-18 10:29:55 +0100
 categories: jekyll update
