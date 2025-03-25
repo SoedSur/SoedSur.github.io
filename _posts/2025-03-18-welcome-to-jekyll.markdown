@@ -29,4 +29,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 
-![Image](/week%207/Website/SoedSur.github.io/_posts/cov_plot.png)
+![Image]({{site.url}}assets/cov_plot.png)
