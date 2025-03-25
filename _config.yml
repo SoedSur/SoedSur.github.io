@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Assignment 2
+#title: Assignment 2
 #email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This assignment will focus on 'category -----' and take a look further into this. 
+#description: >- # this means to ignore newlines until "baseurl:"
+ # This assignment will focus on 'category -----' and take a look further into this. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: Dont have one
