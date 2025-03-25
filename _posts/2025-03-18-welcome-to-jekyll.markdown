@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Assignment 2"
 date:   2025-03-18 10:29:55 +0100
 categories: jekyll update
 ---
@@ -27,3 +27,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+
+![Image](/Users/gertrudvolund/Documents/DTU/6. semester/SE/week 7/Website/SoedSur.github.io/_posts/cov_plot.png)
