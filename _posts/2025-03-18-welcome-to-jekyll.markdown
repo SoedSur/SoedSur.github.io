@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default # should say post here, difference is that there is no title. 
 title:  "Assignment 2"
 date:   2025-03-18 10:29:55 +0100
 categories: jekyll update
@@ -29,7 +29,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 
-| ![Plot of the covariance between paramters]({{site.url}}/assets/cov_plot.png) | 
+| ![Plot of the covariance between paramters]({{site.url}}/assets/dui_weekday_plot.html) | 
 |:--:| 
 | This is a plot of the 13 parameters and their respective correlation |
 
