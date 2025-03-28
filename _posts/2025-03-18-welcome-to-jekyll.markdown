@@ -22,6 +22,8 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
@@ -29,7 +31,26 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 
-| ![Plot of the covariance between paramters]({{site.url}}/assets/dui_weekday_plot.html) | 
+| ![Plot of time]({{site.url}}/assets/time_plot.png) | 
 |:--:| 
 | This is a plot of the 13 parameters and their respective correlation |
 
+
+kjhefjkhwejkhkrehkjrkecvrf
+
+
+{% include dui_weekday_plot.html %}
+
+kjjkknk
+ælml
+
+<iframe src="/assets/heat_map.html" width="100%" height="500px"></iframe>
+
+
+
+<figure>
+  <iframe src="/assets/time_plot.html" width="115%" height="500px"></iframe>
+  <figcaption style="font-style: italic; text-align: center; margin-top: 10px; color: #555;">
+    Map showing the time of crimes.
+  </figcaption>
+</figure>
