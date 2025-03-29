@@ -1,56 +1,47 @@
 ---
-layout: default # should say post here, difference is that there is no title. 
-title:  "Assignment 2"
+layout: post # should say post here, difference is that there is no title. 
+title:  "Assignment 2: Driving Under the Influence: A Data-Driven Look at Trends and Hotspots"
 date:   2025-03-18 10:29:55 +0100
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Driving under the influence (DUI) remains a significant concern for road safety, contributing to thousands of accidents each year. Our analysis of DUI incidents, based on recent data, provides a clearer picture of when and where these violations are most frequent. This information is crucial for law enforcement, policymakers, and the general public in addressing and mitigating the risks associated with impaired driving.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Data suggest that certain days of the week see higher DUI occurrences. Unsurprisingly, weekends, particularly Fridays and Saturdays, report the highest number of incidents, as seen in <i>Figure 1.1</i>. This trend aligns with nightlife and social drinking patterns, as people go out to bars, clubs, and parties. However, an unexpected finding is the relatively high number of incidents occurring on weekday evenings, particularly on Thursdays. This suggests that midweek drinking events and after-work social gatherings also contribute significantly to DUI cases. This may be a bit difficult to discern, but it is due to most arrests happening throughout the night, making the data appear skewed by the day. Apart from the number of DUI arrests made, it can also be specified which of those were related to alcohol and drugs. As most would assume, the number of alcohol-related arrests is significantly higher than the number of drug-related arrests.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Alcohol is more widely consumed and has a more immediate effect on cognitive and motor functions, making it easier to detect in law enforcement encounters. Additionally, alcohol-related driving laws are well-established and easier to enforce compared to those related to drugs, which can vary in detection methods and thresholds for impairment. This can be clearly seen in <i>Figure 1.2</i>.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-| ![Plot of time]({{site.url}}/assets/time_plot.png) | 
-|:--:| 
-| This is a plot of the 13 parameters and their respective correlation |
-
-
-kjhefjkhwejkhkrehkjrkecvrf
-
-
-{% include dui_weekday_plot.html %}
-
-kjjkknk
-ælml
-
-<iframe src="/assets/heat_map.html" width="100%" height="500px"></iframe>
-
-
-
-<figure>
-  <iframe src="/assets/time_plot.html" width="115%" height="500px"></iframe>
+<figure> 
+  <iframe src="/assets/bar_plot.html" width="120%" height="500px"></iframe> 
   <figcaption style="font-style: italic; text-align: center; margin-top: 10px; color: #555;">
-    Map showing the time of crimes.
+   Figure 1.1: The first plot is a bar plot that shows the number of arrests throughout the weekdays. Dragging the curser over the bars shows the distribution of alcohol-related and drug-related arrests. <br> 
+   Figure 1.2: Clicking on the green button switches the plot to show the distribution of drug- and alcohol-related arrests. 
+   </figcaption> 
+ </figure>
+
+
+As stated earlier, arrests are made primarily during the night, peaking at 22:00 and falling again by 02:00. This is most likely due to bars closing at 2 AM[1]. The highest number of arrests occur at 00:00, but arrests remain significant at 01:00 AM and 02:00 AM. This is likely because police are aware that these are the times when people are under the influence, making them more perceptive to signs that someone might be driving impaired, as opposed to during the middle of the day.
+
+<figure> 
+  <iframe src="/assets/time_plot.html" width="120%" height="650px"></iframe> 
+  <figcaption style="font-style: italic; text-align: center; margin-top: 10px; color: #555;"> 
+  Figure 2: The polar plot shows what time of day arrests are made, where the color-bar shows more yellow indicating more arrests, and the radius represents the number of arrests. It can be seen that most arrests happen at 00:00. Dragging curseren over the plot one can get the amount of crimes at each time. 
   </figcaption>
+ </figure>
+
+
+In addition to the time trends of arrests, there is also a geographical pattern in the arrests of people driving under the influence in San Francisco. <i>Figure 3</i> illustrates how arrests happen more frequently along the major roads in different districts. This is especially visible in the main streets of the Richmond District, Sunset District, and Mission District. Furthermore, it is notable that the main street in the Mission District is heavily populated by bars and restaurants[2], confirming the hypothesis that DUIs are committed by people driving home from a night out. Apart from these areas, it is clear that the city center areas, like Tenderloin and around Union Square, have a higher number of arrests. This could be attributed to the higher concentration of patrol cars in these areas, leading to more arrests. Another reason for the higher number of arrests on larger roads leading to residential areas could be police presence in these streets or individuals being pulled over for other reasons, such as speeding, which is more likely to occur on bigger roads with more space. An example of such a road could be the main road in the Richmond District, which is a 6-lane street.
+
+<figure> 
+  <iframe src="/assets/heat_map.html" width="120%" height="500px"></iframe> 
+  <figcaption style="font-style: italic; text-align: center; margin-top: 10px; color: #555;"> 
+  Figure 3: This heat map shows the locations of arrests from 2003 to 2017. 
+  </figcaption> 
 </figure>
+
+
+In conclusion, the patterns observed in DUI incidents from 2003 to 2018 in San Francisco reveal crucial insights into the factors contributing to impaired driving. The higher frequency of arrests during weekends and late-night hours aligns with social and nightlife activities, while the unexpected rise in DUI incidents during weekday evenings suggests that midweek gatherings also play a significant role. Additionally, the geographical distribution of arrests indicates that heavily trafficked streets in San Francisco, particularly near bars and restaurants, are hotspots for impaired driving. While the data provides valuable insights, further investigation into the distribution of law enforcement presence could help refine strategies for preventing DUI incidents. Ultimately, a better understanding of these trends can aid in the development of targeted interventions to reduce impaired driving and improve overall road safety.
+
+<b>References</b>: <br> 
+[1]: <https://www.latimes.com/politics/story/2022-08-24/california-lawmakers-reject-a-bill-to-extend-bar-hours-in-three-cities> <br> 
+[2]: <https://www.sftravel.com/article/best-streets-bar-hopping-san-francisco>
